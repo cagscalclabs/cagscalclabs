@@ -51,14 +51,6 @@ jobs:
           plugin_activity_days: 30
           plugin_activity_filter: push, issue, pr, release
 
-          # --- Notable contributions ---
-          # Surfaces any contributions to repos outside the org (eg: toolchain,
-          # upstream lwIP, convbin) which reinforces the broader ecosystem role
-          plugin_notable: yes
-          plugin_notable_repositories: yes
-          plugin_notable_filter: is:public
-          plugin_notable_exclude: "@cagstech/* @SecretCalculatorProject/*"
-
           # --- Sponsors card ---
           # Call to action for funding; shown at the bottom of the card
           plugin_sponsors: yes
